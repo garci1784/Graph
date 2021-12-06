@@ -19,6 +19,7 @@ int main()
     else
     {
         fin >> v >> u;
+        int temp = 0;
         while(fin)
         {
             g.addEdge(v,u);
@@ -53,12 +54,11 @@ int main()
         cout << "Shortest Path: ";
         g2.shortestPath(3);
 
-
-        /* //You don't need to make Dijkstra's algo for homework on graph - part 1
-      cout << "Dijkstra's algo: ";
-      g2.DijkstraShortestPath(3);
-        */
-
+        ///* //You don't need to make Dijkstra's algo for homework on graph - part 1
+        /*
+      //cout << "Dijkstra's algo: ";
+      //g2.DijkstraShortestPath(3);
+        //*/
 
     }
     fin.close();
